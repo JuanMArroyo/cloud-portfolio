@@ -1,0 +1,27 @@
+# Terraform state, plans, cache, and crash logs
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+**/tfplan
+crash.log
+crash.*.log
+
+# Terraform variables may contain credentials or environment-specific values
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Local secrets and generated artifacts
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
