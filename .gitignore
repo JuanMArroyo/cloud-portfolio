@@ -18,10 +18,17 @@ crash.*.log
 !.env.example
 *.pem
 *.key
+*.crt
+*.kubeconfig
+kubeconfig*
 *.zip
 
-# OS and editor files
+# OS, editor, and generated output
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+*.swp
+*.log
+dist/
+build/
