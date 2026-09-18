@@ -1,5 +1,7 @@
 # Cloud Engineering Portfolio
 
+> Solution package: [business and technical documentation](docs/solution-package.md)
+
 Hands-on AWS and Terraform projects focused on serverless architecture, infrastructure as code, secure networking, and operational documentation. This repository is organized as a progression from a working serverless API toward larger cloud infrastructure builds.
 
 ## Current portfolio status
